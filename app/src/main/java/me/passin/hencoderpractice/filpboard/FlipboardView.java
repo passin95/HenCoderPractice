@@ -42,7 +42,7 @@ public class FlipboardView extends View {
     }
 
     {
-        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.filpboard);
+        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.ic_filpboard);
         DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
         float newZ = -displayMetrics.density * 6;
         camera.setLocation(0, 0, newZ);

@@ -40,7 +40,7 @@ public class FlipboardLayout extends RelativeLayout{
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
         view = findViewById(R.id.objectAnimatorView);
-        animateBt = findViewById(R.id.animateBt);
+        animateBt = findViewById(R.id.btn_animate);
 
         animateBt.setOnClickListener(new OnClickListener() {
             @Override
